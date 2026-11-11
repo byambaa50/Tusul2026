@@ -1,0 +1,39 @@
+# Local environment files and secrets. This applies to every subdirectory.
+.env
+.env.*
+!.env.example
+
+# Local tool output
+node_modules/
+.next/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
+# Local backups and database exports
+backups/
+*.dump
+*.sql.bak
+
+# Local editor and AI tool settings
+.cursor/
+.vscode/
+.claude/
+.opencode/
+
+# Supabase local state and secrets
+.supabase/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Supabase CLI local metadata (may contain project connection details)
+supabase/.temp/

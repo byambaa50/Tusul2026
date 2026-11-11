@@ -1,0 +1,45 @@
+{
+  "appName": "CashmereTrace",
+  "appTagline": "Ноолуурын гарал үүсэл, чанарын бүртгэл",
+  "footer": {
+    "copyright": "© 2026 CashmereTrace — Ноолуурын гарал үүсэл, чанарын бүртгэл"
+  },
+  "actions": {
+    "login": "Нэвтрэх",
+    "logout": "Гарах",
+    "cancel": "Цуцлах",
+    "save": "Хадгалах",
+    "search": "Хайх",
+    "close": "Хаах",
+    "back": "Буцах",
+    "download": "Татаж авах",
+    "print": "Хэвлэх"
+  },
+  "labels": {
+    "language": "Хэл",
+    "role": "Эрх",
+    "demo": "Демо горим",
+    "phase2": "2-р шат",
+    "comingSoon": "Энэ хэсгийн ажиллагаа 2-р үе шатад нээгдэнэ.",
+    "openMenu": "Цэс нээх",
+    "collapse": "Цэсийг багсгах",
+    "expand": "Цэсийг нээх",
+    "quickSearchPlaceholder": "Багц хайх",
+    "userFallback": "Демо хэрэглэгч",
+    "demoUserAvatar": "ДХ",
+    "demoNote": "Демо горим: бүх өгөгдөл мок байна — сервер, өгөгдлийн сан холбогдоогүй. Демо эрхийн сонголт localStorage-д хадгалагдана."
+  },
+  "pager": {
+    "range": "{from}–{to} / {total}",
+    "previous": "Өмнөх",
+    "next": "Дараах",
+    "page": "{page} / {pages}"
+  },
+  "errors": {
+    "required": "Энэ талбарыг бөглөнө үү."
+  },
+  "accessDenied": {
+    "title": "Эрх хүрэлцэхгүй",
+    "body": "Энэ хуудсанд нэвтрэх эрх таны бүртгэлд байхгүй байна."
+  }
+}

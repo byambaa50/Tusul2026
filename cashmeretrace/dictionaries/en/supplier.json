@@ -1,0 +1,183 @@
+{
+  "dashboard": {
+    "welcome": "Welcome, {name}!",
+    "subtitle": "Summary of your supplies, batches and registration status.",
+    "statAmount": "Total supplied amount",
+    "statAmountHint": "{count} supply records",
+    "statSupplies": "Supply records",
+    "statSuppliesHint": "Number of registered supply records",
+    "statBatches": "Batches",
+    "statBatchesHint": "{tested} of them tested",
+    "recentBatches": "Recent batches",
+    "colCode": "Number",
+    "colDate": "Registered on",
+    "colStatus": "Status",
+    "emptyBatches": "No batches registered",
+    "emptyBatchesHint": "Batches appear here once a clerk registers one from your supply (UC-05).",
+    "linkSupply": "Register supply",
+    "linkQuality": "View quality details",
+    "demoNote": "Demo: the demo supplier (SP-001) is active — their mock data is shown here."
+  },
+  "profile": {
+    "subtitle": "Your own registry record — read-only.",
+    "field": {
+      "name": "Name",
+      "type": "Type",
+      "phone": "Phone",
+      "email": "Email",
+      "username": "Username (email)",
+      "aimag": "Aimag",
+      "soum": "Soum",
+      "registeredOn": "Registered on"
+    },
+    "notFound": "Record not found",
+    "note": "Suppliers cannot edit this record — the registry clerk registers and edits supplier data (FR-2.6, FR-2.7)."
+  },
+  "banner": {
+    "active": "The record is active — supply registration and quality details are available.",
+    "pending": "The registration awaits verification, so sign-in is blocked. Please wait until it is approved (UC-01 step 9, BR-12).",
+    "rejected": "The registration was rejected, so sign-in is blocked. Contact the registry clerk if you have questions.",
+    "locked": "The account is temporarily locked, so sign-in is blocked. Lock duration/unlock is unresolved (BR-14, BR-15).",
+    "reasonLabel": "Reason:"
+  },
+  "register": {
+    "title": "Register supplier",
+    "subtitle": "Create a new supplier record. After submitting it enters the «pending verification» state (UC-01).",
+    "field": {
+      "name": "Name",
+      "type": "Type",
+      "phone": "Phone",
+      "aimag": "Aimag",
+      "soum": "Soum",
+      "email": "Email",
+      "username": "Username",
+      "password": "Password"
+    },
+    "placeholder": {
+      "name": "Enter your name",
+      "phone": "99001122",
+      "email": "name@example.mn",
+      "username": "Enter your username",
+      "password": "Enter your password"
+    },
+    "type": {
+      "herder": "Herder",
+      "cooperative": "Cooperative",
+      "enterprise": "Enterprise"
+    },
+    "aimagPlaceholder": "Choose an aimag",
+    "soumPlaceholder": "Choose a soum",
+    "soumNone": "Soums appear after choosing an aimag",
+    "error": {
+      "phone": "Phone number must be 8 digits.",
+      "email": "Invalid email address.",
+      "usernameTaken": "This username is registered. Choose another username.",
+      "duplicateSupplier": "The same supplier already has a record — registration refused. Contact the registry clerk.",
+      "summaryRequired": "Required fields are incomplete — fill the marked fields.",
+      "storage": "The registration was not saved. A storage error occurred — your data is unchanged, please try again (UC-01 E4)."
+    },
+    "cancelTitle": "Cancel this registration?",
+    "cancelBody": "The entered data will be discarded and no record created (UC-01 A1).",
+    "confirmCancel": "Cancel",
+    "continue": "Keep editing",
+    "submit": "Submit registration",
+    "success": "Registration received.",
+    "successNote": "A record in the «pending verification» state was created. You may sign in after the administrator validates it (UC-01 step 9, BR-12).",
+    "successDemo": "Demo: check your status on the «Check registration status» page with your username/email and password.",
+    "checkStatus": "Check registration status",
+    "close": "Close"
+  },
+  "supply": {
+    "formTitle": "Register supply",
+    "formHint": "Enter the supplied cashmere amount and origin information (UC-02, FR-1.3, FR-1.4).",
+    "section": {
+      "amount": "Supply information",
+      "amountHint": "Enter the supplied cashmere amount and date.",
+      "origin": "Origin information",
+      "originHint": "Enter the cashmere's place of origin and livestock count."
+    },
+    "field": {
+      "amount": "Supplied amount",
+      "amountUnit": "kg",
+      "livestock": "Livestock count",
+      "date": "Date",
+      "aimag": "Aimag",
+      "soum": "Soum"
+    },
+    "hint": {
+      "livestock": "Enter a whole number."
+    },
+    "aimagPlaceholder": "Choose an aimag",
+    "soumPlaceholder": "Choose a soum",
+    "soumNone": "Soums appear after choosing an aimag",
+    "datePlaceholder": "2026-05-04",
+    "error": {
+      "amount": "Enter an amount greater than 0.",
+      "livestock": "Enter a whole number greater than 0.",
+      "dateFuture": "The date cannot be in the future.",
+      "summaryRequired": "Required fields are incomplete — fill the marked fields.",
+      "storage": "The supply was not saved. A storage error occurred — your data is unchanged, please try again (UC-02 E3)."
+    },
+    "cancelTitle": "Cancel this supply entry?",
+    "cancelBody": "The entered data will be discarded and no supply registered (UC-02 A1).",
+    "confirmCancel": "Cancel",
+    "continue": "Keep editing",
+    "submit": "Save",
+    "successTitle": "Supply saved",
+    "successBody": "Saved and linked to your own supplier record (BR-05).",
+    "again": "Supply again",
+    "close": "Close"
+  },
+  "history": {
+    "title": "Own supply history",
+    "col": {
+      "date": "Date",
+      "amount": "Amount (kg)",
+      "aimag": "Aimag",
+      "soum": "Soum",
+      "livestock": "Livestock count"
+    },
+    "onlyOwn": "Only your own supplies are shown (BR-05).",
+    "empty": "No supplies registered",
+    "emptyHint": "Supplies appear here after registering them via the form above.",
+    "totalAmount": "Total amount (kg)"
+  },
+  "quality": {
+    "title": "Own batch quality details",
+    "col": {
+      "code": "Batch number",
+      "registeredOn": "Registered on",
+      "amount": "Amount (kg)",
+      "origin": "Origin",
+      "test": "Test"
+    },
+    "testNo": "No",
+    "testYes": "Yes",
+    "rowOpen": "View details",
+    "onlyOwn": "Only your own batches and their quality parameters are shown (FR-1.5).",
+    "detailTitle": "Batch quality parameters",
+    "detailCode": "Batch number",
+    "detailDate": "Registered on",
+    "detailOrigin": "Origin",
+    "detailStatus": "Status",
+    "fineness": "Fiber fineness",
+    "yield": "Clean cashmere yield",
+    "impurity": "Impurities",
+    "unitMicron": "µm",
+    "unitPercent": "%",
+    "testedOn": "Test date",
+    "noResult": "Result not registered yet",
+    "noResultHint": "It appears here once the test result is recorded (UC-08).",
+    "selectAnother": "Select another batch",
+    "close": "Close",
+    "emptyTitle": "Result not registered yet",
+    "emptyHint": "Quality details appear here after a clerk registers a batch (UC-05) and the test is done.",
+    "codeNote": "Batch numbers use the MN-YYYY-000001 format — generated automatically with duplicate checking.",
+    "blockedOther": "Other suppliers' data is not shown (FR-1.5)."
+  },
+  "blockedSupply": {
+    "title": "Supply registration unavailable",
+    "body": "The system refuses registration because the record status is not «active» (UC-02 E1).",
+    "additional": "Reason: {reason}"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "metaTitle": "QR баталгаажуулалт",
+  "metaDescription": "QR кодоор багцын нийтлэгдсэн гарал үүсэл, чанарын мэдээллийг шалгана.",
+  "lookupTitle": "QR баталгаажуулалт",
+  "lookupSubtitle": "QR кодыг уншуулах эсвэл токеныг оруулна уу. Нэвтрэх шаардлагагүй.",
+  "tokenLabel": "QR токен",
+  "tokenPlaceholder": "Токен эсвэл QR холбоос",
+  "tokenRequired": "Токен оруулна уу.",
+  "submit": "Шалгах",
+  "sampleTitle": "Жишээ QR",
+  "sampleHint": "Энэ зургийг уншуулбал нийтлэгдсэн багц нээгдэнэ. Доорх токенуудаар бусад төлөвийг үзнэ.",
+  "samplePublished": "Нийтлэгдсэн багц",
+  "samplePartial": "Сонгосон талбар",
+  "sampleHidden": "Нийтлээгүй багц",
+  "sampleInvalid": "Хүчингүй токен",
+  "resultKicker": "Нийтийн баталгаажуулалт",
+  "resultTitle": "Багцын мэдээлэл",
+  "originTitle": "Гарал үүсэл",
+  "qualityTitle": "Чанар",
+  "empty": "—",
+  "noQualityValue": "Бүртгэгдээгүй",
+  "notice": "Энд зөвхөн чанарын ажилтан нийтлэхээр сонгосон мэдээлэл харагдана.",
+  "invalidTitle": "Хүчингүй QR код",
+  "invalidBody": "Энэ код танигдаагүй. QR-аа дахин уншуулах эсвэл токеныг шалгана уу.",
+  "unavailableTitle": "Мэдээлэл нийтлэгдээгүй",
+  "unavailableBody": "Энэ багцын мэдээлэл одоогоор нийтэд нээлттэй биш.",
+  "tryAgain": "Өөр код шалгах",
+  "fields": {
+    "batchCode": "Багцын дугаар",
+    "origin": "Аймаг, сум",
+    "supplyAmount": "Нийлүүлэлтийн жин",
+    "livestockCount": "Малын тоо",
+    "fineness": "Нарийн ширхэг",
+    "cleanYield": "Цэвэр ноолуурын гарц",
+    "admixture": "Хольц",
+    "testedOn": "Шинжилгээний огноо",
+    "verificationStatus": "Баталгаажуулалтын төлөв"
+  },
+  "units": {
+    "kg": "кг",
+    "head": "толгой",
+    "micron": "µм",
+    "percent": "%"
+  },
+  "verification": {
+    "verified": "Баталгаажсан",
+    "pending": "Баталгаажуулалт хүлээгдэж буй"
+  }
+}

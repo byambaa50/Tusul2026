@@ -1,0 +1,45 @@
+{
+  "appName": "CashmereTrace",
+  "appTagline": "Cashmere origin & quality registry",
+  "footer": {
+    "copyright": "© 2026 CashmereTrace — Cashmere origin & quality registry"
+  },
+  "actions": {
+    "login": "Sign in",
+    "logout": "Sign out",
+    "cancel": "Cancel",
+    "save": "Save",
+    "search": "Search",
+    "close": "Close",
+    "back": "Back",
+    "download": "Download",
+    "print": "Print"
+  },
+  "labels": {
+    "language": "Language",
+    "role": "Role",
+    "demo": "Demo mode",
+    "phase2": "Phase 2",
+    "comingSoon": "This section opens in Phase 2.",
+    "openMenu": "Open menu",
+    "collapse": "Collapse menu",
+    "expand": "Expand menu",
+    "quickSearchPlaceholder": "Find batch",
+    "userFallback": "Demo user",
+    "demoUserAvatar": "DU",
+    "demoNote": "Demo mode: all data is mocked — no backend is connected. The demo sign-in role is kept in localStorage."
+  },
+  "pager": {
+    "range": "{from}–{to} of {total}",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "{page} / {pages}"
+  },
+  "errors": {
+    "required": "This field is required."
+  },
+  "accessDenied": {
+    "title": "Not permitted",
+    "body": "Your account does not have access to this page."
+  }
+}

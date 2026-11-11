@@ -1,0 +1,20 @@
+{
+  "supplier": {
+    "pending": "Pending verification",
+    "active": "Active",
+    "rejected": "Rejected",
+    "locked": "Temporarily locked"
+  },
+  "batch": {
+    "registered": "Registered",
+    "tested": "Tested"
+  },
+  "publish": {
+    "hidden": "Private",
+    "published": "Published"
+  },
+  "qr": {
+    "created": "QR created",
+    "ready": "Ready to use"
+  }
+}

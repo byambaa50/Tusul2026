@@ -1,0 +1,49 @@
+{
+  "metaTitle": "QR verification",
+  "metaDescription": "Check the published origin and quality information for a cashmere batch.",
+  "lookupTitle": "QR verification",
+  "lookupSubtitle": "Scan a QR code or enter its token. No sign-in is required.",
+  "tokenLabel": "QR token",
+  "tokenPlaceholder": "Token or QR link",
+  "tokenRequired": "Enter a token.",
+  "submit": "Check",
+  "sampleTitle": "Sample QR",
+  "sampleHint": "Scanning this image opens a published batch. The tokens below show the other states.",
+  "samplePublished": "Published batch",
+  "samplePartial": "Selected fields",
+  "sampleHidden": "Unpublished batch",
+  "sampleInvalid": "Invalid token",
+  "resultKicker": "Public verification",
+  "resultTitle": "Batch information",
+  "originTitle": "Origin",
+  "qualityTitle": "Quality",
+  "empty": "—",
+  "noQualityValue": "Not recorded",
+  "notice": "Only the fields a quality officer chose to publish are shown here.",
+  "invalidTitle": "Invalid QR code",
+  "invalidBody": "This code is not recognized. Scan the QR again or check the token.",
+  "unavailableTitle": "Information is not published",
+  "unavailableBody": "This batch is not available for public viewing.",
+  "tryAgain": "Check another code",
+  "fields": {
+    "batchCode": "Batch number",
+    "origin": "Aimag and soum",
+    "supplyAmount": "Supply weight",
+    "livestockCount": "Livestock count",
+    "fineness": "Fineness",
+    "cleanYield": "Clean yield",
+    "admixture": "Admixture",
+    "testedOn": "Test date",
+    "verificationStatus": "Verification status"
+  },
+  "units": {
+    "kg": "kg",
+    "head": "head",
+    "micron": "µm",
+    "percent": "%"
+  },
+  "verification": {
+    "verified": "Verified",
+    "pending": "Verification pending"
+  }
+}

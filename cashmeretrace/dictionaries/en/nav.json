@@ -1,0 +1,59 @@
+{
+  "roles": {
+    "supplier": "Supplier",
+    "clerk": "Registry clerk",
+    "quality": "Quality officer",
+    "management": "Management",
+    "admin": "Administrator"
+  },
+  "supplier": {
+    "home": "Supplier home",
+    "recordsSection": "Supply",
+    "records": "Register supply",
+    "qualitySection": "Quality",
+    "quality": "Quality details",
+    "profile": "Supplier profile"
+  },
+  "clerk": {
+    "home": "Registration area",
+    "suppliersSection": "Registry",
+    "suppliers": "Supplier registry",
+    "supplierNew": "Register supplier",
+    "batchesSection": "Batches",
+    "batches": "Batch list",
+    "batchesNew": "Register batch",
+    "qrSection": "QR code",
+    "qr": "QR code centre",
+    "searchSection": "Search",
+    "search": "Find batch"
+  },
+  "quality": {
+    "home": "Quality area",
+    "searchSection": "Search",
+    "search": "Find batch",
+    "testsSection": "Testing",
+    "tests": "Result history",
+    "publishSection": "Publish settings",
+    "publish": "Publish settings",
+    "phase2Title": "Phase 2: batch search, tests, publish settings",
+    "phase2Body": "Batch search (UC-07), lab tests (UC-08) and publish settings (UC-09) open here."
+  },
+  "management": {
+    "home": "Management area",
+    "reportsSection": "Statistics",
+    "reports": "Statistics & reports",
+    "comparison": "Comparison (aimag/soum)",
+    "phase2Title": "Phase 2: statistics & reports",
+    "phase2Body": "Supply and quality statistics with aimag/soum comparison (UC-11) open here."
+  },
+  "admin": {
+    "home": "Administration area",
+    "usersSection": "Administration board",
+    "users": "Users & roles",
+    "approvals": "Approvals",
+    "configuration": "System configuration",
+    "audit": "Audit log",
+    "phase2Title": "Phase 2: users, configuration, audit log",
+    "phase2Body": "Users/roles, supplier approvals, system configuration and the audit log (UC-12) open here."
+  }
+}
