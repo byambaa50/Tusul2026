@@ -1,40 +1,38 @@
-"use client";
+import { Suspense } from "react";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
-
-import { localeNames, replaceLocale, type Locale } from "@/lib/i18n/config";
-import { cn } from "@/lib/utils";
+import LocaleSwitcherInner from "@/components/layout/locale-switcher-inner";
+import { type Locale } from "@/lib/i18n/config";
 
 const segments = ["mn", "en"] as const;
 
-/** Segmented MN | EN switcher — keeps the current route, swaps the prefix. */
+/**
+ * The inner switcher reads usePathname(), which suspends on routes whose
+ * dynamic params are not covered by generateStaticParams (e.g. /verify/[token]).
+ * Keep the boundary above the hook consumer so the rest of the shell can stay
+ * prerendered.
+ */
 export default function LocaleSwitcher({ locale }: { locale: Locale }) {
-  const t = useTranslations("common");
-  const pathname = usePathname() ?? "/";
+  return (
+    <Suspense fallback={<LocaleSwitcherFallback />}>
+      <LocaleSwitcherInner locale={locale} />
+    </Suspense>
+  );
+}
 
+/** Static placeholder with the same footprint as the segmented control. */
+function LocaleSwitcherFallback() {
   return (
     <div
-      role="group"
-      aria-label={t("labels.language")}
+      aria-hidden
       className="inline-flex items-center rounded-field border border-brown-500/20 bg-linen/70 p-0.5"
     >
       {segments.map((target) => (
-        <Link
+        <span
           key={target}
-          href={replaceLocale(pathname, target)}
-          title={localeNames[target]}
-          aria-current={target === locale ? "true" : undefined}
-          className={cn(
-            "rounded-[8px] px-2.5 py-1.5 text-xs font-semibold tracking-wide transition-colors",
-            target === locale
-              ? "bg-forest-700 text-ivory-50"
-              : "text-ink-700 hover:text-forest-800",
-          )}
+          className="text-ink-700/40 rounded-[8px] px-2.5 py-1.5 text-xs font-semibold tracking-wide select-none"
         >
           {target === "mn" ? "MN" : "EN"}
-        </Link>
+        </span>
       ))}
     </div>
   );

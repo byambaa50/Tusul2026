@@ -27,7 +27,7 @@ import type { PublicField } from "@/lib/types/domain";
 
 const INVALID_SAMPLE = "not-a-real-token";
 
-function VerifySkeleton() {
+export function VerifySkeleton() {
   return (
     <div className="w-full max-w-md animate-pulse space-y-4" aria-hidden>
       <div className="bg-forest-700/10 h-8 w-2/3 rounded-lg" />
